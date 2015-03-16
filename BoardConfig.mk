@@ -28,9 +28,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5476083302 #5.1G
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Kernel
-#TARGET_PREBUILT_KERNEL := device/samsung/goyawifi/kernel
-TARGET_KERNEL_SOURCE  := kernel/samsung/goyawifi
-TARGET_KERNEL_CONFIG  := pxa986_goyawifi_rev02_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/goyawifi/kernel
+#TARGET_KERNEL_SOURCE  := kernel/samsung/goyawifi
+#TARGET_KERNEL_CONFIG  := pxa986_goyawifi_rev02_defconfig
 BOARD_KERNEL_CMDLINE  := 
 BOARD_KERNEL_BASE     := 0x10000000
 BOARD_MKBOOTIMG_ARGS  := --ramdisk_offset 0x01000000
